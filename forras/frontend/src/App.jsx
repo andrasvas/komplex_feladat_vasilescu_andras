@@ -47,11 +47,21 @@ function App() {
 
     <div>
     <div>
-        <div>
+        <div className='row'>
             <h3>A felvételt nyert tanulók névsora a nyelvi előkészítőre</h3>
-            <div>
+            <div className='col-md-6'>
+              <select name="" id="">
+                <option value="">Elektronika</option>
+                <option value="">Informatika</option>
+              </select>
+
+              <button>Adatok</button>
+            </div>
+            <div className='col-md-6'>
               <Felvettek></Felvettek>
             </div>
+            
+
         </div>
     </div>
     </div>
